@@ -39,5 +39,5 @@ workflows:
     jobs:
     - deploy-cfn:
         stack-name1: My-Instnace-Scheduler
-        stack-name2: My-Custom-Instance-Schedule
+        stack-name2: My-Custom-Instance-Scheduler
         aws-cross-account-roles: "arn:aws:iam::000000000000:role/cross-account-role,arn:aws:iam::000000000000:role/service-role/cross-account-role2"
